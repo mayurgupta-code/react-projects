@@ -1,0 +1,25 @@
+changes inside the JSX from normal HTML
+
+react wants only one element to return
+
+1. class -> className (because of the inbuilt keywords inside the JS)
+2. for -> htmlFor 
+3. also use camelCase property naming convention
+  onclick -> onClick
+  tabindex -> tabIndex
+
+props are immutable, like we can't do props.name = "Surya" 
+that is props are only for read-only mode
+
+for state change
+step 1: create a state object inside constructor and initialize it
+
+rce for class export 
+rfce for function component export
+rconst for constructor with this.state
+
+Refs provide a way to access DOM nodes or React elements created in the render method.
+
+A higher-order component (HOC) is an advanced technique in React for reusing component logic. 
+
+useMemo hook is only useful when we want to implement some logic that means we want some logic to re render when only the data changes or any other dependencies chnages otherwise that will not re render and only that particular state re renders not the whole
